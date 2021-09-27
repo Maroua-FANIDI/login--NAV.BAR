@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: gray;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.header{
+    border-radius: 3px solid transparent;
+    background-color: rgb(46, 45, 45);    
+    padding: 1rem;
+    width: 350px;
+
+}
+
+.login{
+    margin-bottom: 15px;
+    margin: 20px;
+}
+
+.link{
+    color: white;
+    margin-right: 10px;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-decoration-color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-left: 6px;
+    
+}
+
+.span{
+    color: rgb(201, 198, 198);
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input{
+    margin: 20px;
+}
+
+
+
+
+.username{
+    display: block;
+    font-size: 15px;
+    color: rgb(212, 212, 212);
+    text-transform:uppercase;
+    margin-bottom: 5px;
+}
+
+
+.one{
+    border: 0px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(83, 83, 83);
+    
+}
+
+
+
+.password{
+    display: block;
+    font-size: 15px;
+    color: rgb(212, 212, 212);
+    text-transform:uppercase;
+    margin-bottom: 5px;
+}
+
+
+.two{
+    border: 0px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(83, 83, 83);
+}
+
+
+
+.keep{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 5px;
+    bottom: 10px ; 
+    letter-spacing: 1px;  
+}
+
+
+.sign-in{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(102, 100, 100);
+    margin-bottom: 20px;
+    
+}
+
+.sign{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+
+
+.link-password{
+    color: rgb(201, 198, 198);
+    text-align:center !important ;
+    letter-spacing: 1px;
+    display: block;
+
+}
+
+
+
+li{
+    float: left;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    width: 350px;
+}
+
+
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px; 
+}
+
+li a:hover{
+    background-color: green;
+}
+
+
+
+
+
+
